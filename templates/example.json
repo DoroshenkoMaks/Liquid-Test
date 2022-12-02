@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "example": {
+      "type": "liquid-test",
+      "blocks": {
+        "custom_block": {
+          "type": "text",
+          "settings": {
+            "image_height": "adapt"
+          }
+        }
+      },
+      "block_order": ["example"]
+    }
+  },
+  "order": ["example"]
+}
