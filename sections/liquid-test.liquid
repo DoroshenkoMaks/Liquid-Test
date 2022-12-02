@@ -1,0 +1,55 @@
+<div class="page-width">
+  <div class='section-header' style="text-align: center;">
+    <h2> {{ section.settings.title }}</h2>
+  </div>
+  <ul class="grid">
+    {% for block in section.blocks %}
+      <li class="grid__item">
+        <div class="grid-view-item product-card">
+          
+          <img src="{{ block.settings.image | img__url: 'master' }}"" style="width: 200px;" />
+          <p>{{ block.settings.block-text }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+  {
+    "name": "Liquid Test",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Liquid Test"
+      }
+    ], 
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Custom Blocks",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "block-text",
+            "label": "Block Text"
+            
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Pick an Image"
+          }
+        ]
+      }
+    ], 
+    "presets": [
+      {
+        "name": "Liquid Test",
+        "category": "Images"
+      }
+    ]
+  }
+{% endschema %}
