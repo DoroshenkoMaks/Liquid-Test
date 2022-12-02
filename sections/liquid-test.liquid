@@ -7,7 +7,7 @@
       <li class="grid__item">
         <div class="grid-view-item product-card">
           
-          <img src="{{ block.settings.image | img__url: 'master' }}"" style="width: 200px;" />
+          <img  src="{{ block.settings.image | image_url: 'master' }}" loading='lazy' width="200"  height="200"/>
           <p>{{ block.settings.block-text }}</p>
         </div>
       </li>
