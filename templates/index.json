@@ -211,6 +211,34 @@
     },
     "42eef8b8-9f78-4d4c-b8a7-bf582336f10b": {
       "type": "liquid-test",
+      "blocks": {
+        "846b8ae4-a616-4c41-b0e4-412332d89c82": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Block 1<\/p>",
+            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+          }
+        },
+        "568288f6-d36d-4d30-bb91-b51a8ff705c0": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Block 2<\/p>",
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+          }
+        },
+        "a02e3269-d814-435a-a2cd-000a65573e0d": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Block 3<\/p>",
+            "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "846b8ae4-a616-4c41-b0e4-412332d89c82",
+        "568288f6-d36d-4d30-bb91-b51a8ff705c0",
+        "a02e3269-d814-435a-a2cd-000a65573e0d"
+      ],
       "settings": {
         "title": "Liquid Test"
       }
