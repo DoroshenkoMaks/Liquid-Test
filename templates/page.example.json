@@ -1,14 +1,8 @@
 {
   "sections": {
     "main": {
-      "type": "liquid-test-main"
-    },
-    "example": {
-      "type": "liquid-test",
-      "settings": {
-        "title": ""
-      }
+      "type": "liquid-test"
     }
   },
-  "order": ["main", "example"]
+  "order": ["main"]
 }

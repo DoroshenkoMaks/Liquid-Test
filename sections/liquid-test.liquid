@@ -1,20 +1,8 @@
-{%- style -%}
-  .section-header,
-  .grid__item {
-    text-align: center;
-  }
-  .section--custom {
-    width: 120rem;
-    margin: 0 auto;
-  }
-{%- endstyle -%}
-
 <div class="section section--custom">
   <div class='section-header'>
     <h2>{{ section.settings.title }}</h2>
   </div>
   <ul class="grid">
-
     {% for block in section.blocks %}
       <li class="grid__item">
         <div class="grid-view-item product-card">
@@ -26,9 +14,6 @@
         </div>
       </li>
     {% endfor %}
-
-
-
   </ul>
   <div class="section__items">
     {%- for item in section.items -%}
@@ -39,6 +24,7 @@
       </div>
     {%- endfor -%}
   </div>
+
 </div>
 
 
@@ -70,10 +56,7 @@
             "label": "Pick an Image"
           }
         ]
-      }
-    ],
-    "items": [
-      {
+      }, {
         "type": "text",
         "name": "Custom Item",
         "settings": [
@@ -91,6 +74,21 @@
             "id": "items_description",
             "label": "Item Description",
             "default": "Description"
+          }
+        ]
+      }, {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Heading button",
+            "default": "Button"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
           }
         ]
       }
