@@ -1,0 +1,31 @@
+{%- style -%}
+  .page-heading h1 {
+    font-size: 4.2rem;
+    width: 120rem;
+    margin: 0 auto;
+  }
+{%- endstyle -%}
+
+<div class="page-heading">
+  <h1>{{ section.settings.title}}</h1>
+</div>
+
+{% schema %}
+  {
+    "name": "Liquid Test Main",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Example page"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Liquid Test Main",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
