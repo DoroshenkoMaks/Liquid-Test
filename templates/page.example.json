@@ -24,10 +24,29 @@
       "settings": {
         "title": "Liquid Test"
       }
+    },
+    "footer": {
+      "type": "liquid-test",
+      "blocks": {
+        "d5aed7e8-4124-401d-be5e-17194c6b6b63": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Block 1<\/p>",
+            "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d5aed7e8-4124-401d-be5e-17194c6b6b63"
+      ],
+      "settings": {
+        "title": "Liquid Test"
+      }
     }
   },
   "order": [
     "main",
-    "example"
+    "example",
+    "footer"
   ]
 }
