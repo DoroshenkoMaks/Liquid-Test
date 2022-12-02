@@ -1,12 +1,17 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
+    "example": {
+      "type": "liquid-test",
+      "blocks": {
+        "custom_block": {
+          "type": "text",
+          "settings": {
+            "image_height": "adapt"
+          }
+        }
+      },
+      "block_order": ["example"]
     }
   },
-  "order": ["main"]
+  "order": ["example"]
 }
