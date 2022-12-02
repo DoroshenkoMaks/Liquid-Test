@@ -13,8 +13,7 @@
         "custom_block": {
           "type": "text"
         }
-      },
-      "block_order": ["example"]
+      }
     }
   },
   "order": ["main", "example"]
