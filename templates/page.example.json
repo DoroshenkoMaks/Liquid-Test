@@ -3,15 +3,36 @@
     "example": {
       "type": "liquid-test",
       "blocks": {
-        "custom_block": {
+        "00918dac-aae0-486d-a331-727db80b8e8b": {
           "type": "text",
           "settings": {
-            "image_height": "adapt"
+            "block-text": "<p>Block 1<\/p>"
+          }
+        },
+        "d742f92e-14b8-4d8e-88ec-d51d2175e501": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Block 2<\/p>"
+          }
+        },
+        "b016b0d6-d178-4572-b4f3-7d1fdbda05eb": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Block 3<\/p>"
           }
         }
       },
-      "block_order": ["example"]
+      "block_order": [
+        "00918dac-aae0-486d-a331-727db80b8e8b",
+        "d742f92e-14b8-4d8e-88ec-d51d2175e501",
+        "b016b0d6-d178-4572-b4f3-7d1fdbda05eb"
+      ],
+      "settings": {
+        "title": "Liquid Test"
+      }
     }
   },
-  "order": ["example"]
+  "order": [
+    "example"
+  ]
 }
